@@ -1,0 +1,21 @@
+body {
+    background: url(milky_way_BG.jpg);
+    background-repeat:no-repeat;
+    background-size: 1920px;
+}
+
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin-top:300px;
+}
+
+h3{
+    font-family: Gothic;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: auto;
+}
