@@ -36,3 +36,46 @@ h3{
     background: url(img/intelligence.jpg);
     height: 100%;
 }
+
+#myCarousel{
+    background: url(img/gal_back2.jpg);
+    height: 100%;
+}
+
+#predstavitev{
+    max-height: 900px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#podelitev{
+    max-height: 900px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#jaz{
+    max-height: 900px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#jaz_oci{
+    max-height: 900px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
