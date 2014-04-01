@@ -5,6 +5,8 @@
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
         <link href = "css/bootstrap.min.css" rel="stylesheet">
         <link href ="stylesheet.css" rel="stylesheet">
+        <link href="font-awesome-4.0.3/font-awesome-4.0.3/css/font-awesome.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Coustard' rel='stylesheet' type='text/css'> <!--about -->
         
         <link href='http://fonts.googleapis.com/css?family=Montserrat+Alternates|Roboto+Condensed:700' rel='stylesheet' type='text/css'>
 		<title>My page</title>
@@ -33,7 +35,7 @@
                     <li><a href = "#about">About Me</a></li>
                     <li><a href = "#projects">Projects</a></li>
                     <li><a href = "#myCarousel">Gallery</a></li>
-                    <li><a href = "#">Contact</a></li>
+                    <li><a href = "#quotes">Quotes</a></li>
                 </ul>
             </div>
         </div>
@@ -47,8 +49,52 @@
 <!--...............................................................ABOUT ME...................................................................... -->
        
         <div id = "about">
-            <div class = "container">
-	           <p>Hello</p>
+            <div class = "row">
+                
+                <!--md-medium screen, 3- 3 stolpci združeni skupaj v enega, tako lahko potem narediš skupaj 4. (12 je možnih) -->
+                <div class = "col-md-6" id = "aboutme">
+                    <h3 class = "fancy">about</h3>
+                    <p class = "firstline">Sem Mitja Kastelic, uni. dipl. ing. elektrotehnike.</p>
+                    <p>Izkušnje:</p>
+                    <p>V času študija sem 2 leti nabiral izkušnje v podjetju Hyb d.o.o., kjer sem opravljal meritve in kalibracije na tlačnih senzorjih, izdeloval elektronska vezja, izvajal analizo                           podatkov in izdeloval končna poročila. Pri tem sem uporabljal aparature:
+                        <ul>
+                            <li>multimeter</li>
+                            <li>tlačna komora</li>
+                            <li>merilnik tlaka</li>
+                            <li>...</li>
+                        </ul>
+                    programe:
+                        <ul>
+                            <li>LabView</li>
+                            <li>Excell</li>
+                            <li>Word</li>
+                            <li>PowerPoint</li>
+                            <li>...</li>
+                        </ul>
+                    </p>
+                    <p>Računalniška znanja (osnovno poznavanje):</p>
+                    <p>HTML5/CSS3</p> 
+                    <p>Python</p>
+                    <p>Javascript</p>
+                    <p>uporaba ogrodja Bootstrap</p>
+                    <p>uporaba Git-a (Version Control System)</p>
+                </div>
+                
+                <div class = "col-md-6">  
+                    <p><i class="fa fa-home fa-3x"></i></p>
+                    <p>Ulica stare pravde 27</p>
+                    <p>8000 Novo mesto</p>
+                    <p>Slovenia</p>
+                    
+                    <p><span class="glyphicon glyphicon-phone"></span></p>
+                    <p>Mobitel: 041-613-401</p>
+                    
+                    <p><span class="glyphicon glyphicon-envelope"></span></p>
+                    <p>kastelic.mitja@gmail.com</p>
+                    
+                    <p><a href = "http://si.linkedin.com/pub/mitja-kastelic/91/48b/176" class = "linkedin"/><i class="fa fa-linkedin-square fa-3x"></i></p> 
+                </div>
+                
             </div>
         </div>
         
@@ -121,8 +167,37 @@
             </div>
             
         </div>
-                
         
+       
+ <!-- ......................................................CONTACT................................................... -->
+        
+    <div id = "contact">
+            <div class = "row">
+                
+                <!--md-medium screen, 3- 3 stolpci združeni skupaj v enega, tako lahko potem narediš skupaj 4. (12 je možnih) -->
+                <div class = "col-md-3" id= "address">
+                    <p><i class="fa fa-home fa-3x"></i></p>
+                    <p>Ulica stare pravde 27</p>
+                    <p>8000 Novo mesto</p>
+                    <p>Slovenia</p>
+                </div>
+                
+                <div class = "col-md-3" id= "mobile">  
+                    <p><span class="glyphicon glyphicon-phone"></span></p>
+                    <p>Mobitel: 041-613-401</p>
+                </div>
+                
+                <div class = "col-md-3" id= "email">
+                    <p><span class="glyphicon glyphicon-envelope"></span></p>
+                    <p>kastelic.mitja@gmail.com</p>
+                </div>
+                
+                <div class = "col-md-3" id= "linked">
+                    <p><a href = "http://si.linkedin.com/pub/mitja-kastelic/91/48b/176" class = "linkedin"/><i class="fa fa-linkedin-square fa-3x"></i></p>     
+                </div>
+            </div>
+        </div>
+    
 <!--............................................................import yQuery and bootstrap java script.............................................. -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="js/bootstrap.js"></script>

@@ -4,7 +4,7 @@ html, body{
 
 #home {
      height: 100%;
-     background: url(milky_way_BG.jpg);
+     background: url(img/milky_way_BG.jpg);
 }
 
 body {
@@ -26,10 +26,32 @@ h3{
     font-size: 50px;
     text-align: center;
 }
-
+/* ===============About me============*/  
 #about{
-    background: url(img/paper3.jpg);
+    background: url(img/paper9.jpg);
     height: 100%;
+}
+
+#aboutme{
+    margin-top: 100px;
+}
+
+.fancy{
+    font-family: 'Coustard', serif;
+    font-weight: 300;            /* thinknes of the letters*/
+    letter-spacing: 1px;        /* space between letters*/
+    font-size: 63px;
+    line-height: 70px;
+    margin-left: -650px;
+}
+
+.firstline{
+    font-family: 'Coustard', serif;
+    font-size: 28px;
+    line-height: 35px;
+    margin-left: 50px;
+    font-weight: normal;
+    letter-spacing: 1px;
 }
 
 #projects{
@@ -74,8 +96,48 @@ h3{
     margin-right: auto;
 }
 
+#quotes{
+    background: url(img/paper10.jpg);
+    height: 100%;
+    text-align: center;
+}
 
+#homeaddress{
+    align-content: center;
+}
 
+span.glyphicon-phone{
+    font-size: 2em;
+}
+
+span.glyphicon-envelope{
+    font-size: 2em;
+}
+
+#address{
+    margin-top: 200px;
+    font-size: 30px;
+}
+
+#mobile{
+    margin-top: 200px;
+    font-size: 30px;
+}
+
+#email{
+    margin-top: 200px;
+    font-size: 30px;
+}
+
+#linked{
+    margin-top: 200px;
+    font-size: 30px;
+}
+
+#aboutme{
+    font-size: 24px;
+    color: white;
+}
 
 
 
