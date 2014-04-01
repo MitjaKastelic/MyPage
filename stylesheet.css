@@ -34,6 +34,8 @@ h3{
 
 #aboutme{
     margin-top: 100px;
+    color: black;
+    
 }
 
 .fancy{
@@ -43,6 +45,7 @@ h3{
     font-size: 63px;
     line-height: 70px;
     margin-left: -650px;
+    color: black;
 }
 
 .firstline{
@@ -52,6 +55,15 @@ h3{
     margin-left: 50px;
     font-weight: normal;
     letter-spacing: 1px;
+    color: black;
+}
+
+.tekst{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    margin-left: 50px;
+    color: black;
 }
 
 #projects{
