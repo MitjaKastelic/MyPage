@@ -2,6 +2,7 @@ html, body{
     height: 100%;
 }
 
+/* ===========Home page ============= */
 #home {
      height: 100%;
      background: url(img/milky_way_BG.jpg);
@@ -29,12 +30,21 @@ h3{
 /* ===============About me============*/  
 
 #stolpec1{
-    margin-top: 200px;
+    margin-top: 300px;
     width: auto;
-    display: block;
     margin-left: auto;
-    margin-right: auto;
     float: left;
+}
+
+#stolpec2{
+    margin-top: 150px;
+    margin-left: auto;
+}
+
+#stolpec3{
+    margin-top: 130px;
+    margin-left: auto;
+    float: right;
 }
 
 #about{
@@ -54,7 +64,7 @@ h3{
     letter-spacing: 1px;        /* space between letters*/
     font-size: 63px;
     line-height: 70px;
-    /*margin-left: -330px;*/
+    margin-left: -175px;
     color: black;
 }
 
@@ -75,19 +85,16 @@ h3{
     line-height: 22px;
     /*margin-left: 50px;*/
     color: black;
-
 }
 
-#stolpec2{
-    margin-top: 120px;
-    margin-left: auto;
+.tekst3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    margin-left: 30px;
+    color: black;
 }
 
-#stolpec3{
-    margin-top: 120px;
-    margin-left: auto;
-    float: right;
-}
 
 .con {
     font-family: 'Coustard', serif;
@@ -96,6 +103,7 @@ h3{
     font-size: 63px;
     line-height: 70px;
     color: black;
+    margin-left: 30px;
 } 
 
 .get{
@@ -105,10 +113,13 @@ h3{
     font-weight: normal;
     letter-spacing: 1px;
     color: black;
+    margin-left: 30px;
 }
 
-
-========================================
+#ikone{
+    margin-left: 90px;
+}
+/* ======================================== */
 #projects{
     background: url(img/paper6.jpg);
     height: 100%;
@@ -194,5 +205,55 @@ span.glyphicon-envelope{
     color: white;
 }
 
+/* =========================   ČRTE ======================================= */
+.container1{
+    width:900px; 
+    /*margin:50px auto;*/
+    margin-left: 500px;
+}
+
+#dividermitja{
+    height:9px; 
+    width:100%; 
+    border:0; 
+    background:url(img/divider1.png) repeat-x;}
 
 
+/*
+hr{
+    margin: auto;
+}
+*/
+
+#container2{
+    width:700px; 
+    margin:50px auto;
+}    
+	
+#divider{
+    height:9px; 
+    width:55%; 
+    border:0; 
+    background:url(img/divider11.png) repeat-x;
+}
+
+/* ========== QUOTES ================= */
+
+#quotes {
+     height: 100%;
+     background: url(img/milky_way_BG.jpg);
+}
+
+/* ================ PROJEKTI ============== */
+
+.projekti{
+    font-family: 'Coustard', serif;
+    font-weight: 300;            /* thinknes of the letters*/
+    letter-spacing: 1px;        /* space between letters*/
+    font-size: 63px;
+    line-height: 50px;
+    line-height: 50px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 150px;
+}
