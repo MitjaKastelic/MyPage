@@ -5,7 +5,8 @@ html, body{
 /* ===========Home page ============= */
 #home {
      height: 100%;
-     background: url(img/milky_way_BG.jpg);
+     background: url(img/milky_way_BG.jpg) no-repeat center fixed;
+     background-size: cover; /*raztegen sliko, da celo sliko raztegne na cel zaslon, če bi bila slika manjša od resolucije zaslona*/
 }
 
 body {
@@ -37,7 +38,7 @@ h3{
 }
 
 #stolpec2{
-    margin-top: 150px;
+    margin-top: 130px;
     margin-left: auto;
 }
 
@@ -46,8 +47,9 @@ h3{
 }
 
 #about{
-    background: url(img/paper9.jpg);
+    background: url(img/paper9.jpg) no-repeat center fixed;
     height: 100%;
+    width: 100%;
 }
 
 #aboutme{
@@ -57,7 +59,7 @@ h3{
 }
 
 .fancy{
-    font-family: 'Coustard', serif;
+    font-family: 'Oswald','Coustard', serif;
     font-weight: 300;            /* thinknes of the letters*/
     letter-spacing: 1px;        /* space between letters*/
     font-size: 63px;
@@ -100,6 +102,7 @@ h3{
     font-size: 63px;
     line-height: 70px;
     color: black;
+    margin-top: 15px;
 } 
 
 .get{
@@ -115,44 +118,29 @@ h3{
 
 
 #myCarousel{
-    background: url(img/paper7.jpg);
-    height: 100%;
+    background: url(img/paper7.jpg) no-repeat center fixed;
 }
 
-#predstavitev{
-    max-height: 900px;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+/*
+.img-responsive {  
+  display: block;  
+  height: auto;  
+  max-width: 100%;  
+}  
+*/
 
-#podelitev{
-    max-height: 900px;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-#jaz{
-    max-height: 900px;
+#slika{
+    max-height: 800px;
     width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#jaz_oci{
-    max-height: 900px;
-    width: auto;
-    display: block;
-    margin-left: auto;
+    /*display: block;*/
+    margin-top: 70px;
+    margin-left:auto;
     margin-right: auto;
 }
 
 #quotes{
-    background: url(img/paper10.jpg);
+    background-fixed: url(img/paper10.jpg) no-repeat center fixed;
     height: 100%;
     text-align: center;
 }
@@ -222,10 +210,35 @@ span.glyphicon-envelope{
 /* ========== QUOTES ================= */
 
 #quotes {
-     height: 100%;
-     background: url(img/milky_way_BG.jpg);
+     height: 150%;
+     background: url(img/paper6.jpg) no-repeat center fixed;
+     padding: 100px 0;
+     width: 100%;
 }
 
+
+#qutes ul{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+#quotes ul li {     
+    list-style: none;
+    margin-bottom: 25px;           
+}
+
+#quotes ul li img {
+    cursor: pointer;
+}
+
+.favorite{
+    font-family: 'Coustard', serif;
+    font-weight: 300;            /* thinknes of the letters*/
+    letter-spacing: 1px;        /* space between letters*/
+    font-size: 63px;
+    line-height: 50px;
+    color: white;
+}
 /* ================ PROJEKTI ============== */
 
 .projekti{
@@ -234,13 +247,16 @@ span.glyphicon-envelope{
     letter-spacing: 1px;        /* space between letters*/
     font-size: 63px;
     line-height: 50px;
-    line-height: 50px;
     color: white;
 }
 
 #projects{
-    background: url(img/paper3.jpg);
+    background: url(img/paper3.jpg) no-repeat center fixed;
     padding: 100px 0;
+    width: 100%;
+}
+.ogrodje{
+    margin: 0 100px;
 }
 
 #projects p, #projects h4{
@@ -255,7 +271,8 @@ span.glyphicon-envelope{
 }
 
 .newclass{
-    width:30%; 
-    display:block; 
-    margin: 0 auto;
+    width: 30%; 
+    display: block; 
+    margin-top: 10px;
 }
+
