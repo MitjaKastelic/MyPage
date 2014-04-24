@@ -27,6 +27,10 @@ h3{
     color: white;
     font-size: 50px;
     text-align: center;
+}    
+
+.navibar{
+    font-size: 14px;
 }
 /* =======================    About me    ===========================*/  
 
@@ -52,12 +56,6 @@ h3{
     margin-top: 130px;
 }
 
-/*#aboutme{
-    margin-top: 100px;
-    color: black;
-    
-}*/
-
 .fancy{
     font-family: 'Oswald','Coustard', serif;
     font-weight: 300;            /* thinknes of the letters*/
@@ -68,53 +66,36 @@ h3{
     color: black;
 }
 
-.firstline{
-    font-family: 'Coustard', serif;
-    font-size: 28px;
-    line-height: 35px;
-    /*margin-left: 50px;*/
-    font-weight: normal;
-    letter-spacing: 1px;
-    color: black;
-}
-
-
-#about p, #about ul{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    line-height: 22px;
-    /*margin-left: 50px;*/
-    color: black;
-}
-
-.tekst3{
+p, ul{
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     line-height: 22px;
     color: black;
 }
 
-
-/*
-    .con {
-        font-family: 'Oswald', 'Coustard', serif;
-        font-weight: 300;            
-        letter-spacing: 1px;        
-        font-size: 63px;
-        line-height: 70px;
-        color: black;
-        margin-top: 15px;
-    }
-*/
-
-.get{
-    font-family: 'Coustard', serif;
+p.firstline{
+    font-family: 'Oswald', 'Coustard', serif;
     font-size: 28px;
     line-height: 35px;
     font-weight: normal;
     letter-spacing: 1px;
     color: black;
 }
+
+#stolpec3 p{            
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+/*.get{
+    font-family: 'Coustard', serif;
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: black;
+}*/
 
 /* ======================================== */
 
