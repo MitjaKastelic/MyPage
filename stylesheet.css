@@ -2,17 +2,17 @@ html, body{
     height: 100%;
 }
 
-/* ===========Home page ============= */
+/* ==============================  Home page ================================ */
 #home {
      height: 100%;
      background: url(img/milky_way_BG.jpg) no-repeat center fixed;
      background-size: cover; /*raztegen sliko, da celo sliko raztegne na cel zaslon, če bi bila slika manjša od resolucije zaslona*/
 }
 
-body {
+/*body {
     
     background-repeat: no-repeat;
-}
+}*/
 
 h1{
     font-family: 'Roboto Condensed', sans-serif;
@@ -28,13 +28,19 @@ h3{
     font-size: 50px;
     text-align: center;
 }
-/* ===============About me============*/  
+/* =======================    About me    ===========================*/  
+
+#about{
+    background: url(img/paper9.jpg) no-repeat center fixed;
+    height: 100%;
+    width: 100%;
+}
 
 #stolpec1{
     margin-top: 300px;
     width: auto;
     margin-left: auto;
-    float: left;
+    float:inherit;      /* CSS float, an element can be pushed to the left or right, allowing other elements to wrap around it. */
 }
 
 #stolpec2{
@@ -46,17 +52,11 @@ h3{
     margin-top: 130px;
 }
 
-#about{
-    background: url(img/paper9.jpg) no-repeat center fixed;
-    height: 100%;
-    width: 100%;
-}
-
-#aboutme{
+/*#aboutme{
     margin-top: 100px;
     color: black;
     
-}
+}*/
 
 .fancy{
     font-family: 'Oswald','Coustard', serif;
@@ -95,15 +95,17 @@ h3{
 }
 
 
-.con {
-    font-family: 'Coustard', serif;
-    font-weight: 300;            /* thinknes of the letters*/
-    letter-spacing: 1px;        /* space between letters*/
-    font-size: 63px;
-    line-height: 70px;
-    color: black;
-    margin-top: 15px;
-} 
+/*
+    .con {
+        font-family: 'Oswald', 'Coustard', serif;
+        font-weight: 300;            
+        letter-spacing: 1px;        
+        font-size: 63px;
+        line-height: 70px;
+        color: black;
+        margin-top: 15px;
+    }
+*/
 
 .get{
     font-family: 'Coustard', serif;
@@ -274,10 +276,6 @@ span.glyphicon-envelope{
     width: 30%; 
     display: block; 
     margin-top: 10px;
-}
-
-.active {
-    background-color: red;
 }
 
 .more {
