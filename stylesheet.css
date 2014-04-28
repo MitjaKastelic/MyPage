@@ -180,7 +180,6 @@ span.glyphicon-envelope{
 #slika{
     max-height: 800px;
     width: auto;
-    /*display: block;*/
     margin-top: 70px;
     margin-left:auto;
     margin-right: auto;
@@ -189,16 +188,11 @@ span.glyphicon-envelope{
 /* ========== QUOTES ================= */
 
 #quotes{
-    background-fixed: url(img/paper10.jpg) no-repeat center fixed;
     height: 100%;
     text-align: center;
-}
-
-#quotes {
-     height: 150%;
-     background: url(img/paper6.jpg) no-repeat center fixed;
-     padding: 100px 0;
-     width: 100%;
+    background: url(img/paper6.jpg) no-repeat center fixed;
+    padding: 100px 0;
+    width: 100%;
 }
 
 
@@ -214,14 +208,9 @@ span.glyphicon-envelope{
 
 #quotes ul li img {
     cursor: pointer;
+    max-height: 320px;
+    max-width: 200px;
+    
 }
 
-.favorite{
-    font-family: 'Coustard', serif;
-    font-weight: 300;            /* thinknes of the letters*/
-    letter-spacing: 1px;        /* space between letters*/
-    font-size: 63px;
-    line-height: 50px;
-    color: white;
-}
 
