@@ -32,6 +32,31 @@ h3{
 .navibar{
     font-size: 14px;
 }
+
+/* ===  ČRTE === */
+.container1{
+    width:900px; 
+    /*margin:50px auto;*/
+    margin-left: 500px;
+}
+
+.dividermitja{
+    height:9px; 
+    width:100%; 
+    border:0; 
+    background:url(img/divider1.png) repeat-x;
+}
+
+.dividermitja.top{
+    padding-top:300px;
+    background-position: center bottom;
+}
+
+/* #container2{
+    width:700px; 
+    margin:50px auto;
+} */    
+
 /* =======================    About me    ===========================*/  
 
 #about{
@@ -88,6 +113,14 @@ p.firstline{
     color: black;
 }
 
+span.glyphicon-phone{
+    font-size: 2em;
+}
+
+span.glyphicon-envelope{
+    font-size: 2em;
+}
+
 /* ========================== PROJECTS ================================= */
 
 .projekti{
@@ -139,21 +172,10 @@ p.firstline{
     margin-top: 10px;
 }
 
-
-
-/* ================================================== */
+/* =======================  GALERIJA ================ */ 
 #myCarousel{
     background: url(img/paper7.jpg) no-repeat center fixed;
 }
-
-/*
-.img-responsive {  
-  display: block;  
-  height: auto;  
-  max-width: 100%;  
-}  
-*/
-
 
 #slika{
     max-height: 800px;
@@ -162,77 +184,15 @@ p.firstline{
     margin-top: 70px;
     margin-left:auto;
     margin-right: auto;
-}
+}	
+
+/* ========== QUOTES ================= */
 
 #quotes{
     background-fixed: url(img/paper10.jpg) no-repeat center fixed;
     height: 100%;
     text-align: center;
 }
-
-#homeaddress{
-    align-content: center;
-}
-
-span.glyphicon-phone{
-    font-size: 2em;
-}
-
-span.glyphicon-envelope{
-    font-size: 2em;
-}
-
-#address{
-    margin-top: 200px;
-    font-size: 30px;
-}
-
-#mobile{
-    margin-top: 200px;
-    font-size: 30px;
-}
-
-#email{
-    margin-top: 200px;
-    font-size: 30px;
-}
-
-#linked{
-    margin-top: 200px;
-    font-size: 30px;
-}
-
-#aboutme{
-    font-size: 24px;
-    color: white;
-}
-
-/* =========================   ČRTE ======================================= */
-.container1{
-    width:900px; 
-    /*margin:50px auto;*/
-    margin-left: 500px;
-}
-
-.dividermitja{
-    height:9px; 
-    width:100%; 
-    border:0; 
-    background:url(img/divider1.png) repeat-x;
-}
-
-.dividermitja.top{
-    padding-top:300px;
-    background-position: center bottom;
-}
-
-#container2{
-    width:700px; 
-    margin:50px auto;
-}    
-	
-
-/* ========== QUOTES ================= */
 
 #quotes {
      height: 150%;
