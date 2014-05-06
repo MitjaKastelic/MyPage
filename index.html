@@ -11,6 +11,7 @@
         <link href='http://fonts.googleapis.com/css?family=Coustard' rel='stylesheet' type='text/css'> <!--about -->
         <link href='http://fonts.googleapis.com/css?family=Montserrat+Alternates|Roboto+Condensed:700' rel='stylesheet' type='text/css'>
 		
+        <link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
         
         <title>My page</title>
 	</head>
@@ -252,18 +253,18 @@ Na koncu smo predstavili zaključke diplomskega dela ter podali možne izboljša
                
                
                <ul class = "row">
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src = "img/quotes/being.jpg" alt="Being" class="img-responsive"/></li>
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src = "img/quotes/compare.jpg" alt="Compare" class="img-responsive"/></li>
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src = "img/quotes/confined.jpg" alt="Confined" class="img-responsive"/></li>          
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src = "img/quotes/create.jpg" alt="Create" class="img-responsive first-row"/></li>
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src = "img/quotes/find.jpg" alt="Find" class="img-responsive"/></li>
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src = "img/quotes/give100.jpg" alt="Give100%" class="img-responsive"/></li>               
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src = "img/quotes/goal.jpg" alt="Goal" class="img-responsive first-row"/></li>
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src = "img/quotes/hard.jpg" alt="Hard" class="img-responsive"/></li>
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src = "img/quotes/learn.jpg" alt="Learn" class="img-responsive"/></li>               
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src = "img/quotes/makingtime.jpg" alt="Making time" class="img-responsive first-row"/></li>
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src = "img/quotes/stay.jpg" alt="Stay" class="img-responsive"/></li>
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src = "img/quotes/when.jpg" alt="When" class="img-responsive"/></li>
+                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/being.jpg"><img src = "img/quotes/being.jpg" alt="Being" class="img-responsive"/></a></li>
+                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/compare.jpg"><img src = "img/quotes/compare.jpg" alt="Compare" class="img-responsive"/></a></li>
+                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/confined.jpg"><img src = "img/quotes/confined.jpg" alt="Confined" class="img-responsive"/></a></li>          
+                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/create.jpg"><img src = "img/quotes/create.jpg" alt="Create" class="img-responsive first-row"/></a></li>
+                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/find.jpg"><img src = "img/quotes/find.jpg" alt="Find" class="img-responsive"/></a></li>
+                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/give100.jpg"><img src = "img/quotes/give100.jpg" alt="Give100%" class="img-responsive"/></a></li>               
+                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/goal.jpg"><img src = "img/quotes/goal.jpg" alt="Goal" class="img-responsive first-row"/></a></li>
+                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/hard.jpg"><img src = "img/quotes/hard.jpg" alt="Hard" class="img-responsive"/></a></li>
+                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/learn.jpg"><img src = "img/quotes/learn.jpg" alt="Learn" class="img-responsive"/></a></li>               
+                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/makingtime.jpg"><img src = "img/quotes/makingtime.jpg" alt="Making time" class="img-responsive first-row"/></a></li>
+                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/stay.jpg"><img src = "img/quotes/stay.jpg" alt="Stay" class="img-responsive"/></a></li>
+                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/when.jpg"><img src = "img/quotes/when.jpg" alt="When" class="img-responsive"/></a></li>
                <ul>
 
            </div>   
@@ -280,7 +281,9 @@ Na koncu smo predstavili zaključke diplomskega dela ter podali možne izboljša
     </div><!-- /.modal -->
 </div>     
 <!--............................................................import yQuery and bootstrap java script.............................................. -->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    
+        <script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
         <script src="js/bootstrap.js"></script>
         
         <script src="js/bootstrap.min.js"></script>
