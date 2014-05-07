@@ -3,23 +3,18 @@ html, body{
 }
 
 /* ==============================  Home page ================================ */
+
 #home {
      height: 100%;
      background: url(img/milky_way_BG.jpg) no-repeat center fixed;
      background-size: cover; /*raztegen sliko, da celo sliko raztegne na cel zaslon, če bi bila slika manjša od resolucije zaslona*/
 }
 
-/*body {
-    
-    background-repeat: no-repeat;
-}*/
-
 h1{
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
     font-size: 80px;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 h3{
@@ -33,7 +28,7 @@ h3{
     font-size: 14px;
 }
 
-/* ===  ČRTE === */
+/* ===================  ČRTE =================== */
 .container1{
     width:900px; 
     /*margin:50px auto;*/
@@ -51,11 +46,6 @@ h3{
     padding-top:300px;
     background-position: center bottom;
 }
-
-/* #container2{
-    width:700px; 
-    margin:50px auto;
-} */    
 
 /* =======================    About me    ===========================*/  
 
@@ -123,21 +113,8 @@ span.glyphicon-envelope{
 
 /* ========================== PROJECTS ================================= */
 
-.projekti{
-    font-family: 'Coustard', serif;
-    font-weight: 300;            /* thinknes of the letters*/
-    letter-spacing: 1px;        /* space between letters*/
-    font-size: 63px;
-    line-height: 50px;
-    color: white;
-}
-
 .diploma{
     font-size: 20px;
-}
-
-.smalltext{
-    color: white;
 }
 
 .more {
@@ -154,7 +131,7 @@ span.glyphicon-envelope{
 }
 
 #projects{
-    background: url(img/paper3.jpg) no-repeat center fixed;
+    background: url(img/paper10.jpg) no-repeat center fixed;
     padding: 100px 0;
     width: 100%;
 }
@@ -163,6 +140,15 @@ span.glyphicon-envelope{
 }
 
 #projects p, #projects h4{
+    color: black;
+}
+
+.projekti, .projekti p{
+    font-family: 'Coustard', serif;
+    font-weight: 300;            /* thinknes of the letters*/
+    letter-spacing: 1px;        /* space between letters*/
+    font-size: 63px;
+    line-height: 50px;
     color: white;
 }
 
@@ -171,6 +157,12 @@ span.glyphicon-envelope{
     display: block; 
     margin-top: 10px;
 }
+
+/*#projects img {
+    cursor: pointer;
+    max-height: 800px;
+    max-width: 400px;   
+} */
 
 /* =======================  GALERIJA ================ */ 
 #myCarousel{
