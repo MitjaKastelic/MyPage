@@ -50,7 +50,7 @@ h3{
 /* =======================    About me    ===========================*/  
 
 #about{
-    background: url(img/paper9.jpg) no-repeat center fixed;
+    background-color: #F2F2F2;  /*url(img/paper9.jpg) no-repeat center fixed; */
     height: 100%;
     width: 100%;
 }
@@ -131,7 +131,7 @@ span.glyphicon-envelope{
 }
 
 #projects{
-    background: url(img/paper10.jpg) no-repeat center fixed;
+    background-color: #F2F2F2; /* url(img/paper9.jpg) no-repeat center fixed; */
     padding: 100px 0;
     width: 100%;
 }
@@ -141,6 +141,7 @@ span.glyphicon-envelope{
 
 #projects p, #projects h4{
     color: black;
+    text-align: justify;
 }
 
 .projekti, .projekti p{
@@ -166,7 +167,7 @@ span.glyphicon-envelope{
 
 /* =======================  GALERIJA ================ */ 
 #myCarousel{
-    background: url(img/paper7.jpg) no-repeat center fixed;
+    background-color: #F2F2F2; /*url(img/paper9.jpg) no-repeat center fixed; */
 }
 
 #slika{
@@ -182,7 +183,7 @@ span.glyphicon-envelope{
 #quotes{
     height: 100%;
     text-align: center;
-    background: url(img/paper6.jpg) no-repeat center fixed;
+    background-color: #F2F2F2; /*url(img/paper9.jpg) no-repeat center fixed;*/
     padding: 100px 0;
     width: 100%;
 }
