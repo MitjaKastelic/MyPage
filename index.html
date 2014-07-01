@@ -7,11 +7,15 @@
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
         <link href = "css/bootstrap.min.css" rel="stylesheet">
         <link href ="stylesheet.css" rel="stylesheet">
+        
         <link href="font-awesome-4.0.3/font-awesome-4.0.3/css/font-awesome.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Coustard' rel='stylesheet' type='text/css'> <!--about -->
         <link href='http://fonts.googleapis.com/css?family=Montserrat+Alternates|Roboto+Condensed:700' rel='stylesheet' type='text/css'>
 		
         <link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+        
+        <!-- Bootstrap core CSS for Google MAP -->
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.css" rel="stylesheet" media="screen">
         
         <title>My page</title>
 	</head>
@@ -20,7 +24,7 @@
         
 <!--====================================================================== NAVBAR and HOME PAGE =====================================================================================-->
     <div class = "navbar navbar-inverse navbar-fixed-top">  
-        <div class = "container">
+        <div class = "container-fluid">
             <!--this is going to give us a name of the site -->
             <a class = "navbar-brand" rel="home" href = "#" title="Mitja's Site">
                 <img style="max-width: 35px; margin-top: -7px;" src="img/LogoMitja.png"/>
@@ -42,6 +46,7 @@
                     <li><a href = "#projects">Projekti</a></li>
                     <li><a href = "#myCarousel">Galerija</a></li>
                     <li><a href = "#quotes">Citati</a></li>
+                    <li><a href = "#kontakt">Kontakt</a></li>
                 </ul>
             </div>
         </div>
@@ -64,19 +69,25 @@
         
 <!--=====================================================================  ABOUT ME AND CONTACT ============================================================================-->
        
-        <div class = "container" id = "about">
+        <div class = "container-fluid" id = "about">
+            <div class = "ogrodje">
+                
+                <p class = "projekti">O meni</p>
+                <p class = "dividermitja project"></p>
+                
                 <div class = "row">
-
+                    
+                    
                     <!-- 1. stolpec -->
-                    <div class = "col-md-3 col-md-offset-1">
+                    <div class = "col-md-4 col-md-offset-1">
                         <img src = "img/Me1.jpg" alt="Me" class="img-responsive img-rounded" id = "stolpec1"/>
                     </div>
 
                     <!-- 2. stolpec-->
-                    <div class = "col-md-4">
+                    <div class = "col-md-6">
                         <div id="stolpec2">
-                            <h3 class = "fancy">O meni</h3>
-                            <p class = "firstline">Sem Mitja Kastelic, uni. dipl. ing. elektrotehnike.</p>
+                            <!-- <h3 class = "fancy">O meni</h3> -->
+                            <p class = "firstline">Sem Mitja Kastelic, univ. dipl. ing. elektrotehnike.</p>
                             <p>Izkušnje:</p>
                             <p>V času študija sem 2 leti nabiral izkušnje v podjetju Hyb d.o.o., kjer sem opravljal meritve in kalibracije na tlačnih senzorjih, izdeloval elektronska vezja,                           izvajal analizo podatkov in izdeloval končna poročila. Pri tem sem uporabljal 
                             <p><strong>aparature:</strong></p>
@@ -106,11 +117,13 @@
                                 </ul>
                         </div>
                     </div>
+            
+                    <div class = "col-md-1"></div>
                     
                     <!--3. stolpec -->
-                    <div class = "col-md-3 col-md-offset-1">  
+                    <!--<div class = "col-md-3 col-md-offset-1">  
                         <div id = "stolpec3">
-                            <h3 class = "fancy">Kontakt</h3>      <!--  con spremenil v fancy -->
+                            <h3 class = "fancy">Kontakt</h3>
                             
                             <p><i class="fa fa-home fa-3x"></i></p>
                             <p>Ulica stare pravde 27</p>
@@ -125,20 +138,21 @@
 
                             <p><a href = "http://si.linkedin.com/pub/mitja-kastelic/91/48b/176" class = "linkedin"><i class="fa fa-linkedin-square fa-3x"></i></a></p> 
                         </div>
-                    </div> 
+                    </div> -->
 
                 </div>
+            </div>
         </div>
         
         
 <!--==================================================================== PROJECTS ================================================================= -->
         
 
-<div class = "container" id = "projects">
+<div class = "container-fluid" id = "projects">
         <div class = "ogrodje">    
             <div class = "row">
                 <p class = "projekti">Projekti</p>
-                <p ></p> 
+                <p class = "dividermitja project"></p>
                 
                 <div class = "col-lg-6 col-md-6">
                     
@@ -168,119 +182,150 @@
         </div>
 </div>
 <!--======================================================================== GALLERY ================================================================= -->
-    <div id = "myCarousel">   
-        <div class = "container" >
-            <div class = "row">
-                <div class ="col-lg-12"> 
-                    <div class = "carousel slide" >
+       
+    <div class = "container-fluid">
+        <div class = "ogrodje">
+            <div id = "myCarousel">
+                <p class = "galerijaslik">Galerija slik</p>
+                <p class = "dividermitja project"></p>
 
-                        <ol class = "carousel-indicators">
-                            <li data-target = "#myCarousel" data-slide-to = "0" class = "active"></li>
-                            <li data-target = "#myCarousel" data-slide-to = "1"></li>
-                            <li data-target = "#myCarousel" data-slide-to = "2"></li>
-                            <li data-target = "#myCarousel" data-slide-to = "3"></li>
-                        </ol>
+                <div class = "row">
+                    <div class ="col-lg-12"> 
+                        <div class = "carousel slide" >
 
-                        <!--where slides  are going to be stored -->
-                        <div class = "carousel-inner">
-                            <div class = "item active" >
-                                <!-- img-responsive makes picture responsive to all screens -->
-                                <img src = "img/predstavitevN.jpg" alt = "Predstavitev" class = "img-responsive img-rounded" id = "slika">    
-                                <div class = "carousel-caption">
-                                    <h4>Presentation of my thesis</h4>
-                                </div>                    
-                            </div>    
+                            <ol class = "carousel-indicators">
+                                <li data-target = "#myCarousel" data-slide-to = "0" class = "active"></li>
+                                <li data-target = "#myCarousel" data-slide-to = "1"></li>
+                                <li data-target = "#myCarousel" data-slide-to = "2"></li>
+                                <li data-target = "#myCarousel" data-slide-to = "3"></li>
+                            </ol>
 
-                            <div class = "item" >
-                                <img src = "img/podelitevN.jpg" alt = "Podelitev" class = "img-responsive img-rounded" id = "slika">    
-                                <div class = "carousel-caption">
-                                    <h4>Presentation</h4>
+                            <!--where slides  are going to be stored -->
+                            <div class = "carousel-inner">
+                                <div class = "item active" >
+                                    <!-- img-responsive makes picture responsive to all screens -->
+                                    <img src = "img/predstavitevN.jpg" alt = "Predstavitev" class = "img-responsive img-rounded" id = "slika">    
+                                    <div class = "carousel-caption">
+                                        <h4>Presentation of my thesis</h4>
+                                    </div>                    
+                                </div>    
+
+                                <div class = "item" >
+                                    <img src = "img/podelitevN.jpg" alt = "Podelitev" class = "img-responsive img-rounded" id = "slika">    
+                                    <div class = "carousel-caption">
+                                        <h4>Presentation</h4>
+                                    </div>
                                 </div>
+
+                                <div class = "item">
+                                    <img src = "img/jaz1N.jpg" alt = "Jaz" class = "img-responsive img-rounded" id = "slika">  
+                                    <div class = "carousel-caption">
+                                        <h4>Me with bachelor's degree paper in my hand</h4>
+                                    </div>
+                                </div>
+
+                                <div class = "item">
+                                    <img src = "img/jaz_ociN.jpg" alt = "Jaz in oči" class = "img-responsive img-rounded" id = "slika">    
+                                    <div class = "carousel-caption">
+                                        <h4>Me and Dad</h4>
+                                    </div>
+                                </div>
+
                             </div>
 
-                            <div class = "item">
-                                <img src = "img/jaz1N.jpg" alt = "Jaz" class = "img-responsive img-rounded" id = "slika">  
-                                <div class = "carousel-caption">
-                                    <h4>Me with bachelor's degree paper in my hand</h4>
-                                </div>
-                            </div>
+                            <!--Sliding to left -->
+    <!--
+                            <a class = "carousel-control left" href = "#myCarousel" data-slide = "prev">
+                                 gives us an icon
+                                <span class = "icon-prev"></span>
+                            </a> 
+    -->
 
-                            <div class = "item">
-                                <img src = "img/jaz_ociN.jpg" alt = "Jaz in oči" class = "img-responsive img-rounded" id = "slika">    
-                                <div class = "carousel-caption">
-                                    <h4>Me and Dad</h4>
-                                </div>
-                            </div>
+                            <!--Sliding to right -->
+    <!--
+                            <a class = "carousel-control right" href = "#myCarousel" data-slide = "next">
+                                 gives us an icon
+                                <span class = "icon-next"></span>
+                            </a> 
+    -->
 
                         </div>
-
-                        <!--Sliding to left -->
-<!--
-                        <a class = "carousel-control left" href = "#myCarousel" data-slide = "prev">
-                             gives us an icon
-                            <span class = "icon-prev"></span>
-                        </a> 
--->
-
-                        <!--Sliding to right -->
-<!--
-                        <a class = "carousel-control right" href = "#myCarousel" data-slide = "next">
-                             gives us an icon
-                            <span class = "icon-next"></span>
-                        </a> 
--->
-
                     </div>
-                </div>
-           </div> 
+               </div> 
+            </div>
         </div>
+        
     </div>      
        
  <!-- ============================================================================ QUOTES ============================================================ -->
-<div class = "container-fluid">    
-    <div id = "quotes">     
-    
-            <p class = "projekti">Moji najljubši citati</p>
-            <p class = "dividermitja project"></p>
-               
-               
-               <ul class = "row">
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/being.jpg"><img src = "img/quotes/being.jpg" alt="Being" class="img-responsive"/></a></li>
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/compare.jpg"><img src = "img/quotes/compare.jpg" alt="Compare" class="img-responsive"/></a></li>
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/confined.jpg"><img src = "img/quotes/confined.jpg" alt="Confined" class="img-responsive"/></a></li>          
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/create.jpg"><img src = "img/quotes/create.jpg" alt="Create" class="img-responsive first-row"/></a></li>
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/find.jpg"><img src = "img/quotes/find.jpg" alt="Find" class="img-responsive"/></a></li>
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/give100.jpg"><img src = "img/quotes/give100.jpg" alt="Give100%" class="img-responsive"/></a></li>               
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/goal.jpg"><img src = "img/quotes/goal.jpg" alt="Goal" class="img-responsive first-row"/></a></li>
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/hard.jpg"><img src = "img/quotes/hard.jpg" alt="Hard" class="img-responsive"/></a></li>
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/learn.jpg"><img src = "img/quotes/learn.jpg" alt="Learn" class="img-responsive"/></a></li>               
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/makingtime.jpg"><img src = "img/quotes/makingtime.jpg" alt="Making time" class="img-responsive first-row"/></a></li>
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/stay.jpg"><img src = "img/quotes/stay.jpg" alt="Stay" class="img-responsive"/></a></li>
-                   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/when.jpg"><img src = "img/quotes/when.jpg" alt="When" class="img-responsive"/></a></li>
-               <ul>
+<div class = "container-fluid">   
+    <div class = "ogrodje">
+        <div id = "quotes">     
 
-           </div>   
-        </div>
+                <p class = "projekti">Moji najljubši citati</p>
+                <p class = "dividermitja project"></p>
+
+
+                   <ul class = "row">
+                       <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/being.jpg"><img src = "img/quotes/being.jpg" alt="Being" class="img-responsive"/></a></li>
+                       <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/compare.jpg"><img src = "img/quotes/compare.jpg" alt="Compare" class="img-responsive"/></a></li>
+                       <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/confined.jpg"><img src = "img/quotes/confined.jpg" alt="Confined" class="img-responsive"/></a></li>          
+                       <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/create.jpg"><img src = "img/quotes/create.jpg" alt="Create" class="img-responsive first-row"/></a></li>
+                       <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/find.jpg"><img src = "img/quotes/find.jpg" alt="Find" class="img-responsive"/></a></li>
+                       <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/give100.jpg"><img src = "img/quotes/give100.jpg" alt="Give100%" class="img-responsive"/></a></li>               
+                       <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/goal.jpg"><img src = "img/quotes/goal.jpg" alt="Goal" class="img-responsive first-row"/></a></li>
+                       <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/hard.jpg"><img src = "img/quotes/hard.jpg" alt="Hard" class="img-responsive"/></a></li>
+                       <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/learn.jpg"><img src = "img/quotes/learn.jpg" alt="Learn" class="img-responsive"/></a></li>               
+                       <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/makingtime.jpg"><img src = "img/quotes/makingtime.jpg" alt="Making time" class="img-responsive first-row"/></a></li>
+                       <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/stay.jpg"><img src = "img/quotes/stay.jpg" alt="Stay" class="img-responsive"/></a></li>
+                       <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/when.jpg"><img src = "img/quotes/when.jpg" alt="When" class="img-responsive"/></a></li>
+                   </ul>
+
+        </div>  
+    </div>
+</div>
  
         
 <!-- ======================================================================== KONTAKT =======================================================================  -->
         
 <div class = "container" id = "kontakt">
-    <div class = "row">
-        
+    <div class = "ogrodje">
+        <div class = "row">
+            <p class = "kontakti">Kontakt</p>   
+            <p class = "dividermitja project"></p>
+
+            <!-- a div that will act as the container for the map (line 21). -->
+            <div class="col-md-1"></div>
+            <div id="map-container" class="col-md-10"></div>
+            <div class="col-md-1"></div>
+
+
+            <!--Container for markup -->
+            <div class="container">
+              <div class="row">
+                  <div id="map-outer" class="col-md-12">
+                      <div id="address" class="col-md-4">
+                        <h2>Kontakt:</h2>
+                        <address>
+                        <strong>Kastelic Mitja</strong><br>
+                            Ulica stare pravde 27<br>
+                            8000 Novo mesto<br>
+                            Slovenia<br>
+                            <abbr>Tel:</abbr> +386 41 613 401</br>
+                            <abbr>e-mail:</abbr> kastelic.mitja@gmail.com</br>
+
+                            <a href = "http://si.linkedin.com/pub/mitja-kastelic/91/48b/176" class = "linkedin"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                       </address>
+                      </div>
+                    <div id="map-container" class="col-md-8"></div>
+                  </div><!-- /map-outer -->
+              </div> <!-- /row -->
+            </div>
+        </div>
     </div>
 </div>
         
-    <!--makes modal pop-up box -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">         
-          <div class="modal-body">                
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-</div>     
+     
 <!--............................................................import yQuery and bootstrap java script.............................................. -->
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
     
@@ -290,5 +335,19 @@
         <script src="js/bootstrap.min.js"></script>
     
         <script type="text/javascript" src="js/script.js"></script> 
+    
+    
+        <!-- Skripte za google map-->
+    
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <!-- Include all compiled plubasegins (below), or include individual files as needed -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    
+        <!-- The first part (lines 38 – 56) creates a function (with the name ‘init-map’ in this tutorial) -->
+        <!-- The second part (line 58) then invokes that function after the browser window has finished loading -->
+        <script src="js/map.js"></script>
+        <!-- konec skript za google map-->
     </body>
 </html>
