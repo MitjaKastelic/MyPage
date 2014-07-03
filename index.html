@@ -7,6 +7,8 @@
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
         <link href = "css/bootstrap.min.css" rel="stylesheet">
         <link href ="stylesheet.css" rel="stylesheet">      
+        
+        <!-- Links for fonts -->
         <link href="font-awesome-4.0.3/font-awesome-4.0.3/css/font-awesome.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Coustard' rel='stylesheet' type='text/css'> <!--about -->
         <link href='http://fonts.googleapis.com/css?family=Montserrat+Alternates|Roboto+Condensed:700' rel='stylesheet' type='text/css'>
@@ -17,12 +19,11 @@
         <!-- Bootstrap core CSS for Google MAP -->
         <!--<link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.css" rel="stylesheet" media="screen">   TA LINK MI NAGAJA NA 1. STRANI GLEDE NAPISA-->
         
-        <title>My page</title>
+        <title>Moja stran</title>
 	</head>
 	
-    <body>
-        
-<!--============================== NAVBAR and HOME PAGE =========================================-->
+    <body>        
+<!--============================== START NAVBAR and HOME PAGE =================================-->
     <div class = "navbar navbar-inverse navbar-fixed-top">  
         <div class = "container-fluid">
             <!--this is going to give us a name of the site -->
@@ -52,7 +53,7 @@
         </div>
     </div> 
     
-       
+
     <div id="home">
         <div class = "container"> 
             <p class = "dividermitja top"></p>  <!-- ...........Črtice......... -->           
@@ -61,8 +62,9 @@
             <p class = "dividermitja"></p>  <!-- ...........Črtice......... -->
         </div>
     </div>
+<!--=========================== END NAVBAR and HOME PAGE ===================================-->        
         
-<!--==================================  START OF ABOUT ME =====================================-->
+<!--==========================  START ABOUT ME =====================================-->
        
         <div class = "container-fluid" id = "about">
             <div class = "ogrodje">
@@ -71,8 +73,7 @@
                 <p class = "dividermitja project"></p>
                 
                 <div class = "row">
-                    
-                    
+                                   
                     <!-- 1. stolpec -->
                     <div class = "col-md-4 col-md-offset-1">
                         <img src = "img/Me1.jpg" alt="Me" class="img-responsive img-rounded" id = "stolpec1"/>
@@ -81,7 +82,6 @@
                     <!-- 2. stolpec-->
                     <div class = "col-md-6">
                         <div id="stolpec2">
-                            <!-- <h3 class = "fancy">O meni</h3> -->
                             <p class = "firstline">Sem Mitja Kastelic, univ. dipl. ing. elektrotehnike.</p>
                             <p>Izkušnje:</p>
                             <p>V času študija sem 2 leti nabiral izkušnje v podjetju Hyb d.o.o., kjer sem opravljal meritve in kalibracije na tlačnih senzorjih, izdeloval elektronska vezja,                           izvajal analizo podatkov in izdeloval končna poročila. Pri tem sem uporabljal 
@@ -112,35 +112,15 @@
                                 </ul>
                         </div>
                     </div>
-            
-                    <div class = "col-md-1"></div>
-                    
-                    <!--3. stolpec -->
-                    <!--<div class = "col-md-3 col-md-offset-1">  
-                        <div id = "stolpec3">
-                            <h3 class = "fancy">Kontakt</h3>
-                            
-                            <p><i class="fa fa-home fa-3x"></i></p>
-                            <p>Ulica stare pravde 27</p>
-                            <p>8000 Novo mesto</p>
-                            <p>Slovenija</p>
-
-                            <p><span class="glyphicon glyphicon-phone"></span></p>
-                            <p>Mobitel: 041-613-401</p>
-
-                            <p><span class="glyphicon glyphicon-envelope"></span></p>
-                            <p>kastelic.mitja@gmail.com</p>
-
-                            <p><a href = "http://si.linkedin.com/pub/mitja-kastelic/91/48b/176" class = "linkedin"><i class="fa fa-linkedin-square fa-3x"></i></a></p> 
-                        </div>
-                    </div> -->
-
+                
+                    <!--3. stolpec, ki služi kot offset za desni rob ekrana -->
+                    <div class = "col-md-1"></div>        
                 </div>
             </div>
         </div>
-<!--=================================== END OF ABOUT ME ============================== -->        
+<!--=================================== END ABOUT ME ============================== -->        
         
-<!--=================================== START OF PROJECTS ============================== -->
+<!--=================================== START PROJECTS ============================== -->
         
 <div class = "container-fluid" id = "projects">
         <div class = "ogrodje">    
@@ -150,8 +130,9 @@
                     <br>
                     
                     <div class="pisava">
+                        
+                        <!-- 1. stolpec -->
                         <div class = "col-lg-6 col-md-6">
-
                             <p class = "diploma">DIPLOMA: Naloga za dvoročno vadbo in ocenjevanje funkcij roke med motorično rehabilitacijo</p>
                             <br>
                             <p> Tema diplomskega dela je nadgradnja obstoječega sistema z dodatnima aplikacijama namenjenima izvajanju vaj, ter izgradnja preproste baze podatkov za shranjevanje meritev.</p>
@@ -163,24 +144,24 @@
                             <p>Sledile so meritve. Na koncu smo predstavili zaključke diplomskega dela ter možne izboljšave sistema. </p>
 
                             <img src = "img/space_invaders.png" class = "img-responsive" id="slikaProjekt"/>
-                            <a href = "http://mitja.vrtiljak.net/diplomska/Diplomsko%20delo_Mitja%20Kastelic.pdf" class = "btn btn-info newclass">Več ...</a>
+                            <a href = "http://mitja.vrtiljak.net/diplomska/Diplomsko%20delo_Mitja%20Kastelic.pdf" class = "btn btn-info buttons">Več ...</a>
                         </div>
-
+                        
+                        <!-- 2. stolpec -->
                         <div class = "col-lg-6 col-md-6">
-
                             <p class = "diploma">KOPIJA 9GAG-a</p>
                             <p>Moj prva naloga na tečaju spletnega programiranja STARTUP NM, je bila poustvariti čim boljšo kopijo strani 9GAG. 
                                 Tukaj sem se pobližje spoznal z izdelavo navbar-a (uporaba logota, dodajanje gumbov, dropdown liste), izdelavo osrednjega dela strani (article page), kjer se poljubno dodaja                           slike ter gif-e, ter izdelavo side bara.
                                 gumbe</p>
-                            <a href = "http://mitja.vrtiljak.net/9GAGcopy/" class = "btn btn-info newclass">Več ...</a>
+                            <a href = "http://mitja.vrtiljak.net/9GAGcopy/" class = "btn btn-info buttons">Več ...</a>
                         </div>
                     </div>
             </div>
         </div>
 </div>
-<!--=================================== END OF PROJECTS ============================== -->
+<!--=================================== END PROJECTS ============================== -->
     
-<!--=================================== START OF GALARY ============================== -->
+<!--=================================== START GALARY ============================== -->
        
     <div class = "container-fluid" id = "myCarousel">
         <div class = "ogrodje1">
@@ -229,61 +210,44 @@
                                         <h4>Me and Dad</h4>
                                     </div>
                                 </div>
-
                             </div>
-
-                            <!--Sliding to left -->
-    <!--
-                            <a class = "carousel-control left" href = "#myCarousel" data-slide = "prev">
-                                 gives us an icon
-                                <span class = "icon-prev"></span>
-                            </a> 
-    -->
-
-                            <!--Sliding to right -->
-    <!--
-                            <a class = "carousel-control right" href = "#myCarousel" data-slide = "next">
-                                 gives us an icon
-                                <span class = "icon-next"></span>
-                            </a> 
-    -->
-
                         </div>
                     </div>
                </div>            
         </div>        
     </div>     
-<!--=================================== END OF PROJECTS ============================== -->
+<!--=================================== END PROJECTS ============================== -->
        
-<!--=================================== START OF QUOTES ============================== -->
+<!--=================================== START QUOTES ============================== -->
 <div class = "container-fluid" id = "quotes">   
     <div class = "ogrodje">
       
-
                 <p class = "projekti">Moji najljubši citati</p>
                 <p class = "dividermitja project"></p>
-
 
                    <ul class = "row">
                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/being.jpg"><img src = "img/quotes/being.jpg" alt="Being" class="img-responsive"/></a></li>
                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/compare.jpg"><img src = "img/quotes/compare.jpg" alt="Compare" class="img-responsive"/></a></li>
                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/confined.jpg"><img src = "img/quotes/confined.jpg" alt="Confined" class="img-responsive"/></a></li>          
                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/create.jpg"><img src = "img/quotes/create.jpg" alt="Create" class="img-responsive first-row"/></a></li>
+                    
                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/find.jpg"><img src = "img/quotes/find.jpg" alt="Find" class="img-responsive"/></a></li>
                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/give100.jpg"><img src = "img/quotes/give100.jpg" alt="Give100%" class="img-responsive"/></a></li>               
+                       </ul>
+                       
+                    <ul class = "row">
                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/goal.jpg"><img src = "img/quotes/goal.jpg" alt="Goal" class="img-responsive first-row"/></a></li>
-                       <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/hard.jpg"><img src = "img/quotes/hard.jpg" alt="Hard" class="img-responsive"/></a></li>
+                       <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/hard.jpg"><img src = "img/quotes/hard.jpg" alt="Hard" class="img-responsive"/></a></li>   
                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/learn.jpg"><img src = "img/quotes/learn.jpg" alt="Learn" class="img-responsive"/></a></li>               
                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/makingtime.jpg"><img src = "img/quotes/makingtime.jpg" alt="Making time" class="img-responsive first-row"/></a></li>
                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/stay.jpg"><img src = "img/quotes/stay.jpg" alt="Stay" class="img-responsive"/></a></li>
                        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><a class="grouped_elements" rel="group1" href="img/quotes/when.jpg"><img src = "img/quotes/when.jpg" alt="When" class="img-responsive"/></a></li>
-                   </ul>
-         
+                   </ul>        
     </div>
 </div>
-<!--=================================== END OF QUOTES ============================== --> 
+<!--=================================== END QUOTES ============================== --> 
         
-<!--=================================== START OF CONTACT =========================== -->
+<!--=================================== START CONTACT =========================== -->
         
 <div class = "container" id = "kontakt">
     <div class = "ogrodje">
@@ -316,14 +280,14 @@
                       </div>
                     <div id="map-container" class="col-md-8"></div>
                   </div><!-- /map-outer -->
-              </div> <!-- /row -->
+              </div>
             </div>
         </div>
     </div>
 </div>
-<!--=================================== END OF CONTACT ============================== -->        
+<!--=================================== END CONTACT ============================== -->        
      
-<!--................ import yQuery and bootstrap java script ........................ -->
+<!-- =================== import yQuery and bootstrap java script =================== -->
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
     
         <script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>

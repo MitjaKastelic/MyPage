@@ -7,7 +7,11 @@ html, body{
 #home {
      height: 100%;
      background: url(img/milky_way_BG.jpg) no-repeat center fixed;
-     background-size: auto; /*raztegen sliko, da celo sliko raztegne na cel zaslon, če bi bila slika manjša od resolucije zaslona*/
+     background-size: auto;     /*raztegen sliko na cel zaslon, če bi bila slika manjša od resolucije zaslona*/
+}
+
+.navibar{
+    font-size: 14px;    
 }
 
 h1{
@@ -24,15 +28,16 @@ h3{
     text-align: center;
 }    
 
-.navibar{
-    font-size: 14px;
-}
-
 /* ===================  ČRTE =================== */
-.container1{
+/*.container1{
     width:900px; 
-    /*margin:50px auto;*/
+    margin:50px auto;
     margin-left: 500px;
+}*/
+
+.dividermitja.top{
+    padding-top:300px;
+    background-position: center bottom;
 }
 
 .dividermitja{
@@ -42,21 +47,17 @@ h3{
     background: url(img/divider1.png) repeat-x;
 }
 
-.dividermitja.top{
-    padding-top:300px;
-    background-position: center bottom;
-}
 
 /* ================= About me   =================*/  
 
 #about{
-    background: url(img/Texture1.jpg) repeat center fixed; /*  #E5E4E2;*/
-/*
-    height: 100%;
-    width: 100%;
-*/
+    background: url(img/Texture1.jpg) repeat center fixed; 
     background-size: cover;
     padding: 100px 0;
+}
+
+.ogrodje{
+    margin: 0 100px;
 }
 
 #stolpec1{
@@ -69,20 +70,6 @@ h3{
 #stolpec2{
     margin-top: 130px;
     margin-left: auto;
-}
-
-#stolpec3{
-    margin-top: 130px;
-}
-
-.fancy{
-    font-family: 'Oswald','Coustard', serif;
-    font-weight: 300;            /* thinknes of the letters*/
-    letter-spacing: 1px;        /* space between letters*/
-    font-size: 63px;
-    line-height: 70px;
-    margin-left: -175px;
-    color: black;
 }
 
 p, ul{
@@ -101,38 +88,7 @@ p.firstline{
     color: black;
 }
 
-#stolpec3 p{            
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    color: black;
-}
-
-span.glyphicon-phone{
-    font-size: 2em;
-}
-
-span.glyphicon-envelope{
-    font-size: 2em;
-}
 /* ========================== PROJECTS ================================= */
-
-.diploma{
-    font-size: 20px;
-}
-
-
-/*.more {
-    border-radius: 4px;
-    background-color: #BCC6CC;
-    transition: background-color 0.5s ease;
-    display:inline;
-    font-size:14px;
-    padding: 6px 12px;
-    border:1px solid;
-    margin-top:10px;
-    color: white;
-    border-color: #46b8da;
-}*/
 
 #projects{
     background: #243b4d; /* url(img/paper9.jpg) no-repeat center fixed; */
@@ -140,11 +96,8 @@ span.glyphicon-envelope{
     width: 100%;
     heigt: 100%;
 }
-.ogrodje{
-    margin: 0 100px;
-}
 
-#projects p, #projects h4{
+#projects p{
     color: white;
     text-align: justify;
 }
@@ -158,19 +111,6 @@ span.glyphicon-envelope{
     color: black;
 }
 
-.newclass{
-    width: 30%; 
-    display: block; 
-    margin-top: 10px;
-}
-
-/*
-#projects img {
-    cursor: pointer;
-    max-height: 1000px;
-    max-width: 600px;   
-} 
-*/
 .pisava p{
     font-family: 'Source Sans Pro', 'Oswald';
     font-size: 1.5em;
@@ -178,9 +118,19 @@ span.glyphicon-envelope{
     line-height: 1.25;
 }
 
+.diploma{
+    font-size: 20px;
+}
+
 #slikaProjekt{
     max-height: 300px;
     width: auto;
+}
+
+.buttons{
+    width: 15%; 
+    display: block; 
+    margin-top: 10px;
 }
 
 /* =======================  GALERIJA ================ */ 
@@ -191,13 +141,10 @@ span.glyphicon-envelope{
     height: 100%;
 }
 
-#slika{
-    max-height: 500px;
-    width: auto;
-    margin-top: 70px;
-    margin-left:auto;
-    margin-right: auto;
-}	
+.ogrodje1{
+    width: 100%;
+    padding: 0 100px; 
+}
 
 .galerijaslik{
     font-family: 'Coustard', serif;
@@ -208,10 +155,14 @@ span.glyphicon-envelope{
     color: black;  
 }
 
-.ogrodje1{
-    width: 100%;
-    padding: 0 100px; 
-}
+#slika{
+    max-height: 500px;
+    width: auto;
+    margin-top: 70px;
+    margin-left:auto;
+    margin-right: auto;
+}	
+
 /* ========== QUOTES ================= */
 
 #quotes{
@@ -222,22 +173,15 @@ span.glyphicon-envelope{
     width: 100%;
 }
 
-
-#qutes ul{
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
-}
-
 #quotes ul li {     
     list-style: none;
-    margin-bottom: 25px;           
+    margin-bottom: 30px;           
 }
 
 #quotes ul li img {
     cursor: pointer;
     max-height: 320px;
     max-width: 200px;
-    
 }
 
 /* ===================== KONTAKT ================= */
@@ -259,24 +203,13 @@ span.glyphicon-envelope{
 
 #map-container{ 
     height: 400px; 
-    /*height: 50%;  */
     margin: auto;
 
 }
 
 #map-container .container{
     position: fixed;
-    /* height: 500px;       50%  */
     width: 50%;
-}
-
-html{ 
-    height: 100% 
-}
-
-body{ 
-    height: 100%;
-    background-color:#CCC; 
 }
 
 #map-outer {  
